@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CourseraLanguageLearningeSuite]">
+  <test thread-count="5" name="LanguageLearningExtraction(failed)">
+    <classes>
+      <class name="com.coursera.tests.LanguageLearningTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC001_ExpandLanguageOptions"/>
+          <include name="setUp"/>
+          <include name="TC002_ExtractLanguagesAndLevels"/>
+        </methods>
+      </class> <!-- com.coursera.tests.LanguageLearningTest -->
+    </classes>
+  </test> <!-- LanguageLearningExtraction(failed) -->
+</suite> <!-- Failed suite [CourseraLanguageLearningeSuite] -->
