@@ -1,0 +1,4 @@
+TestCase,SearchTerm,FirstName,LastName,Email,Phone,OrgType,Company,EmpRange,Country,Title
+TC001,Web Development,Mansi,Baviskar,baviskarmansigmail.com,9876543234,Business,xyz,501-1000,India,xyz
+TC002,Java Programming,John,Doe,invalid-email,1234567890,Business,ABC Corp,1-500,India,Manager
+TC003,Python Programming,Jane,Smith,test@invalid,9876543210,Business,XYZ Edu,1001-5000,India,Developer
