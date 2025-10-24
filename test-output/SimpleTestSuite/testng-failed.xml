@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SimpleTestSuite]">
+  <test thread-count="5" name="BasicTest(failed)">
+    <classes>
+      <class name="com.coursera.tests.CourseraTests">
+        <methods>
+          <include name="TC003_EnterpriseFormValidation"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.coursera.tests.CourseraTests -->
+    </classes>
+  </test> <!-- BasicTest(failed) -->
+</suite> <!-- Failed suite [SimpleTestSuite] -->

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-22T12:13:57 IST" name="EnterpriseFormSuite" finished-at="2025-10-22T12:16:18 IST" duration-ms="141163">
+    <groups>
+    </groups>
+    <test started-at="2025-10-22T12:13:57 IST" name="EnterpriseFormValidation" finished-at="2025-10-22T12:16:18 IST" duration-ms="141163">
+      <class name="com.coursera.tests.EnterpriseFormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.coursera.tests.EnterpriseFormTest@7eac9008]" started-at="2025-10-22T12:13:57 IST" name="setUp" finished-at="2025-10-22T12:14:11 IST" duration-ms="13910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC001_FillFormWithValidData()[pri:1, instance:com.coursera.tests.EnterpriseFormTest@7eac9008]" started-at="2025-10-22T12:14:11 IST" name="TC001_FillFormWithValidData" finished-at="2025-10-22T12:14:52 IST" duration-ms="40915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_FillFormWithValidData -->
+        <test-method signature="TC002_FillFormWithInvalidEmail()[pri:2, instance:com.coursera.tests.EnterpriseFormTest@7eac9008]" started-at="2025-10-22T12:14:52 IST" name="TC002_FillFormWithInvalidEmail" finished-at="2025-10-22T12:15:33 IST" duration-ms="41584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_FillFormWithInvalidEmail -->
+        <test-method signature="TC003_PhoneNumberValidation()[pri:3, instance:com.coursera.tests.EnterpriseFormTest@7eac9008]" started-at="2025-10-22T12:15:33 IST" name="TC003_PhoneNumberValidation" finished-at="2025-10-22T12:16:15 IST" duration-ms="41797" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Phone field should not accept less than 10 digits but it did]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Phone field should not accept less than 10 digits but it did
+at org.testng.Assert.fail(Assert.java:111)
+at com.coursera.tests.EnterpriseFormTest.TC003_PhoneNumberValidation(EnterpriseFormTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_PhoneNumberValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.coursera.tests.EnterpriseFormTest@7eac9008]" started-at="2025-10-22T12:16:15 IST" name="tearDown" finished-at="2025-10-22T12:16:18 IST" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.coursera.tests.EnterpriseFormTest -->
+    </test> <!-- EnterpriseFormValidation -->
+  </suite> <!-- EnterpriseFormSuite -->
+</testng-results>
