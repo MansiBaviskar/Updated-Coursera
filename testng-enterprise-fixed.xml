@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EnterpriseFormSuite">
+    <test name="EnterpriseFormValidation">
+        <classes>
+            <class name="com.coursera.tests.EnterpriseFormTest"/>
+        </classes>
+    </test>
+</suite>

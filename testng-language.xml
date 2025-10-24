@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CourseraLanguageLearningeSuite">
+    <test name="LanguageLearningExtraction">
+        <classes>
+            <class name="com.coursera.tests.LanguageLearningTest"/>
+        </classes>
+    </test>
+</suite>

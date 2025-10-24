@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CourseraWebDevSearchSuite">
+    <test name="WebDevelopmentCourseSearch">
+        <classes>
+            <class name="com.coursera.tests.WebDevCourseSearchTest"/>
+        </classes>
+    </test>
+</suite>
